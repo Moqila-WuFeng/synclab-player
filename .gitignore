@@ -1,0 +1,25 @@
+# 本仓库仅公开发布 README 文档与第三方许可声明。
+# 规则：先忽略全部内容，再逐级放行白名单文件。
+/*
+
+# 版本控制元数据
+!/.gitignore
+!/.gitattributes
+
+# 文档与许可声明
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/LICENSE
+
+# 素材版权声明 + README 引用的预览图
+!/docs/
+/docs/*
+!/docs/assets/
+/docs/assets/*
+!/docs/assets/ASSET_NOTICE.md
+!/docs/assets/av-player-preview.png
+
+# 第三方依赖说明
+!/third_party/
+/third_party/*
+!/third_party/README.md
